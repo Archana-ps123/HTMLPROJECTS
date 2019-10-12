@@ -1,0 +1,54 @@
+<!Doctype html-->
+<html>
+
+<head>
+
+<body>
+    <!--form starts-->
+    <form action="https://www.google.com/" method="get">
+        <!--Grouping elements-->
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name:</label>
+            <input type="text" required="required" /><br>
+            <label>Email:</label>
+
+            <input type="email" required="required" /><br>
+        </fieldset><br>
+        <fieldset>
+            <legend> Your Review:</legend>
+            How did you hear about us?
+            <!--Dropdown menu-->
+            <select name="droplist">
+                <option value="google">Google</option>
+                <option value="Github">Github</option>
+                <option value="slack">Slack</option>
+            </select><br>
+            <label>Would you visit again?</label><br>
+            <!--End of Dropdown menu-->
+            <!--Radio button-->
+            <input type="radio" name="radiobutton" value="yes" checked="checked" />Yes
+
+            <input type="radio" name="radiobutton" value="No" />No
+
+            <input type="radio" name="radiobutton" value="Maybe" />Maybe<br>
+            <!--Radio button ends-->
+            <label>Comments:</label><br>
+            <!--Start of textarea-->
+            <textarea name="comments" cols="50" rows="4" placeholder="Enter your comments!"></textarea><br>
+            <!--End of textarea-->
+            <!--Start of checkbox-->
+            <input type="checkbox" name="checkbox" checked="checked" /><label>Sign me up for email updates</label><br>
+            <!--End of checkbox-->
+            <!--Start of button-->
+            <input type="submit" value="submit review">
+            <!-- End of button-->
+
+        </fieldset>
+        <!End of grouping>
+
+    </form>
+</body>
+</head>
+
+</html>
