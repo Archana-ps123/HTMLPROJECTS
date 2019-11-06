@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url("new.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    background-size:100% ;
+    
+    
+}
+.loginbox
+{
+    width: 40%;
+    height: 100%;
+    background-color:cadetblue;
+    border: 2px solid;
+    border-radius: 70px;
+    color:cadetblue;
+    margin: 10% 10% 10% 10%;
+    
+    top: 23%;
+    left: 37%
+
+    padding: 70px 30px;
+    
+    
+    
+}
+
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.loginbox input[type = "text"],input[type = "password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#bbff;
+    color:cornflowerblue;
+    font-size: 18px;
+    border-right: 20px;
+}
+.loginbox input[type = "submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: aqua;
+}
+
+
+a{
+    font-family: 'ubuntu',sans-serif;
+    
+    
+}

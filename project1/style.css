@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+/*
+.header {
+
+  background-color: #2D2E28;
+
+    width: 10px;
+    height: 3em;
+    top:-0em;
+    position: absolute;
+   
+}
+*/
+.header {
+
+            background-color:  #3b5998;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            left: 0px;
+            height: 85px;
+        }
+
+.hlogo{
+    position: absolute;
+    left: 10em;
+    top: 0em;
+    
+    
+}
+
+
+/*
+
+.login{
+    position: absolute;
+    top: .5em;
+    left: 15em;
+}
+*/
+
+
+.fb
+{
+    
+    position: absolute;
+    top: 0em;
+    left: 10em;
+      color: white;
+   
+}
+
+  .para1{
+    position: absolute;
+    top: 0em;
+    left: 40em;
+      color: white;
+}
+
+
+  .para2{
+    position: absolute;
+    top: 0em;
+    left: 52em;
+      color: white;
+}
+
+button{
+    
+    position: absolute;
+    top: 2.5em;
+    left: 76em;
+    color: white;
+    background-color:  #3b5998;
+    
+}
+a{
+    text-decoration: none;
+    color: lightgrey;
+}
