@@ -1,0 +1,115 @@
+For Output
+
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+Writing into the browser console, using console.log().
+
+Eg:
+<!DOCTYPE html>
+<html>
+	<body>
+
+	<h1>My First Web Page</h1>
+	<p>My First Paragraph</p>
+
+	<p id="demo"></p>
+
+	<script>
+		document.getElementById("demo").innerHTML = 5 + 6;
+	</script>
+	
+	<script>
+		window.alert(5 + 6);
+	</script>
+	
+	<script>
+		console.log(5 + 6);
+	</script>
+
+	</body>
+</html>
+
+
+To Use External Js
+
+<script src="myScript.js"></script>
+
+Variables:
+
+var a, b, c;    
+a = 5;       
+b = 6;           
+c = a + b;   
+
+String
+
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(-12, -6);
+
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "DDUGKY");
+
+var text1 = "Hello";
+var text2 = "World";
+var text3 = text1.concat(" ", text2);
+
+var str = "HELLO WORLD";
+str.charAt(0);
+
+var str = "HELLO WORLD";
+str.charCodeAt(0);
+
+var txt = "a,b,c,d,e"; 
+txt.split(",");        
+txt.split(" ");          
+txt.split("|");  
+
+
+
+Loop
+
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+var text = "";
+var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+<script>
+var text = ""
+var i = 0;
+
+do {
+  text += "<br>The number is " + i;
+  i++;
+}
+while (i < 10);  
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+Array
+
+var cars = ["Saab", "Volvo", "BMW"];
+var cars = new Array("Saab", "Volvo", "BMW");

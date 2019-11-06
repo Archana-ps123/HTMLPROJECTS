@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Case Study 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        
+        *:focus {
+    outline: none;
+}
+        #newtext {
+            padding: 5px;
+            font-size: 2em;
+            width: 50%;
+            height: 2em;
+            border-right-style: none;
+        }
+
+        #bid {
+            padding: 5px;
+            font-size: 2em;
+            border-color: aliceblue;
+        }
+
+
+        input {
+            background-color: transparent;
+            border: 0px solid;
+            height: 20px;
+            width: 160px;
+            color: black;
+        }
+
+        #bid:hover {
+
+            color: black;
+            text-decoration: line-through;
+        }
+
+    </style>
+
+<body>
+    <center>
+        <input id="newtext" type="text" placeholder="What needs to be done?">
+        <div class="logDiv">
+            <div id="bid" onclick="myFunction()" class="one"></div>
+        </div>
+    </center>
+</body>
+
+<script>
+    function myFunction(elm) {
+        $(elm).remove();
+    }
+    $(document).ready(function() {
+        $('#newtext').focus();
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#newtext').keypress(function(e) {
+            if (e.which == 13) {
+
+                var newtext = $("#newtext").val();
+                //                taking new text value to variable
+                $(".logDiv").append('<div id="bid" onclick="myFunction(this)">' + newtext + '</div>');
+                //    will generate div with same id
+                $("#newtext").val('');
+            }
+        });
+
+
+    });
+
+</script>
+</head>
