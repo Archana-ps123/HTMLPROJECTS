@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <title>Final HTML Project</title>
+    <style>
+        .bg {
+            background-color: darkgrey;
+            height: 120%;
+            width: 100%;
+
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 630px;
+            gap: 35px;
+
+            border-color: darkgrey;
+            padding-left: .5em;
+            padding-top: .5em;
+            padding-right: .5em;
+            padding-bottom: .5em;
+
+        }
+
+        .box {
+            border: 16px solid black;
+            background-color: #F8584A;
+            border-color: white;
+
+        }
+
+        /*        box1*/
+
+
+
+        /*        box1ends*/
+
+        #box2 {
+            padding: 1em;
+            color: white;
+
+        }
+
+        .name input {
+            width: 25em;
+            height: 2.2em;
+        }
+
+        .email input {
+            width: 25em;
+            height: 2.2em;
+        }
+
+        /*        End Of Second box*/
+
+        #box3 {
+            padding: 1em;
+            color: white;
+
+        }
+
+        .date input {
+            width: 25em;
+            height: 2.2em;
+        }
+
+        textarea {
+
+
+            width: 25em;
+            height: 5.2em;
+        }
+
+        button {
+            position: absolute;
+            left: 65em;
+            background-color: black;
+            color: white;
+            border-radius: 1em;
+            width: 10em;
+            height: 3em;
+
+        }
+
+        img {
+            position: absolute;
+            top: 1em;
+            left: 1em;
+        }
+
+    </style>
+
+<body>
+    <div class="bg">
+        <form class="container" method="post">
+
+            <div class="box" id="box1">
+                <!--                <img src="box1.PNG" width="31%" height="92.9%">-->
+            </div>
+            <!--START OF SECOND BOX      -->
+
+            <div class="box" id="box2">
+                <h1>Settings</h1><br>
+                <div class="name">Name:<br><input type="text" placeholder="Enter your name">
+                    <br>
+                    <div id="namemsg"></div>
+                    <br><br>
+
+                    <div class="email">Email:<br> <input type="email" placeholder="you@example.com"><br>
+
+                        <div id="emailmsg"></div>
+                        <div><br><br>
+                            password<br><input type=Password id="pswd"><br>
+                            <div id="pswdmsg"></div><br><br>
+                            Confirm password<br><input class="form-control" type="password" id="cpswd"><br>
+                            <div id="cpswdmsg"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--     END OF SECOND BOX -->
+
+            <div class="box" id="box3">
+                <h1>Profile</h1><br>
+                <div class="date">
+                    Birthday:<br><input id="dob" type="date"></div><br>
+                <div id="age">no age</div><br><br>
+                Short Bio (max 140 characters)
+                <br><textarea id="field" onkeyup="countChar(this)"></textarea>
+                <br>
+                <div id="charNum">140</div>
+                <button>Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="form.js"></script>
+
+</body>
+
+<html>
+
+</html>
