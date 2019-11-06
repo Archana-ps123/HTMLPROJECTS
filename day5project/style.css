@@ -1,0 +1,250 @@
+/*google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+/* google fonts */
+/*
+
+.bodybg {
+    background-color: #41403c;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+}
+*/
+
+ body{
+            
+            color: #ffffff;
+            background: #413f3b url("bg.jpg");
+        }
+    
+
+.header {
+
+    background-color: #2D2E28;
+    width: 100%;
+    height: 6em;
+    top: 0px;
+    position: absolute;
+
+}
+
+.header img {
+    width: 16em;
+    height: 2.5em;
+    top: 2em;
+    left: 19em;
+    position: absolute;
+
+}
+
+.header a {
+    
+    text-decoration: none;
+    color: #807c72;
+}
+
+
+.headanchor a:hover{
+    color: indianred;
+}
+
+
+.headanchor {
+    top: 2.5em;
+    left: 73em;
+    position: absolute;
+
+}
+
+/*end of header*/
+
+/*start of main*/
+/*
+.main {
+    position: absolute;
+    left: 24.69em;
+    top: 9.1em;
+   padding-left: 1em;
+}
+.main2{
+    position: absolute;
+    left: 15.5em;
+    top: 0.5em;
+   padding-left: 1em;
+
+}
+*/
+
+.whole{
+    padding-left: 220px; 
+    color: #ffffff;
+            background: #413f3b;
+    
+}
+    .outertri{
+        
+        width: 960px;
+        background-image: url("bg-triangle.png");
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        text-align: left;
+    } 
+    .innertri{
+        
+        height: 500px;
+        background-image: url("triangles.png");
+        background-repeat: no-repeat;
+        background-position: 123px 143px;
+    } 
+
+.fixed{
+    position: absolute;
+    top:10em;
+    left: 50em;
+    color: lightgray;
+}
+.firstpara {
+    color: white;
+    position: absolute;
+    top: 16.9em;
+    left: 76em;
+    font-size: .9em;
+}
+.firstpara a{
+    color: #b5c1ad;
+}
+
+.firstpara p{
+    font-size: 11px;
+    color: #b5c1ad;
+}
+                 /*START OF MORE ARTICLES BLOCK*/
+
+.morearticles h3{
+    color: #b5c1ad;
+    position: absolute;
+    left: 10em;
+}
+
+
+.fimg{
+    position: absolute;
+    left: 17.5em;
+    top: 48em;
+    
+}
+
+.fimg p{
+    font-size: .8em;
+    
+}
+
+.fimg a{
+    text-decoration: none;
+    color: #b5c1ad;
+    
+}
+.fimg a:hover{
+    color: rosybrown;
+}
+
+
+.simg{
+    position: absolute;
+    left: 35em;
+    top: 48em;
+    
+}
+
+.simg p{
+    font-size: .8em;
+    
+}
+
+.simg a{
+    text-decoration: none;
+    color: #b5c1ad;
+    
+}
+
+.simg a:hover{
+    color: rosybrown;
+}
+
+
+.timg{
+    position: absolute;
+    left: 64.9em;
+    top: 60em;
+    
+}
+
+.timg{
+    font-size: .8em;
+    
+}
+
+.timg a{
+    text-decoration: none;
+    color: #b5c1ad;
+    
+}
+
+.timg a:hover{
+    color: rosybrown;
+}
+
+
+.fourthimg{
+    position: absolute;
+      left: 86em;
+    top: 60em;
+    }
+
+.fourthimg{
+    font-size: .8em;
+    }
+
+.fourthimg a{
+    text-decoration: none;
+    color: #b5c1ad;
+    
+}
+
+.fourthimg a:hover{
+    color: rosybrown;
+}
+
+
+
+
+.footer {
+
+  background-color: #2D2E28;
+
+    width: 100%;
+    height: 3em;
+    top:75em;
+    position: absolute;
+ 
+}
+
+
+.footanchor {
+    top: .5em;
+    left: 55em;
+    position: absolute;
+
+}
+
+.footanchor a {
+ text-decoration: none;
+    color:#807c72;
+
+}
+.footanchor a:hover{
+    color: indianred;
+}
+

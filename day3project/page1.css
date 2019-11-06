@@ -1,0 +1,311 @@
+/*My css google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+/* google fonts */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 80px;
+    padding-top: 15px;
+}
+
+
+
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0em;
+    border: 1px;
+    background-color: black
+}
+
+
+.ul1 {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    margin: 0em;
+    justify-content:flex-start;
+    background-color:black;
+    border: 1px;
+    flex-direction: column;
+    width: 15em;
+    height: 43em;
+
+}
+
+li {
+    margin: .5em;
+    padding: .5em;
+}
+.flex1 {
+    text-align:center;
+    margin: 0em;
+    border: 1px;
+    background-color: black;
+    width: 15em;
+    color: white;
+}
+
+.flex2 {
+    border: 1px;
+    background-color: #0bb76c;
+    text-align: center;
+    width: 10em;
+    border-radius: 20px;
+}
+.flex3{
+    border: 1px;
+    background-color:white;
+    color: black;
+    text-align:left;
+    width: 10em;
+    flex-basis: 50em;
+}
+
+.flex4 {
+    border: 1px;
+    background-color: #0bb76c;
+    text-align: center;
+    width: 10em;
+    flex-basis: 20em;
+}
+
+
+
+/*head buttons*/
+
+.ul2{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:15em;
+    right:0;
+    width: 70em;
+    height: 3.5em;
+    text-align: center;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,.10);
+}
+
+/*quick action border alignment*/
+.quickaction{
+    color: white;
+    list-style-type: none;
+   
+    position: absolute;
+    top:4em;
+    bottom:0;
+    left:20em;
+    right:0;
+    width: 70em;
+    height: 3.5em;
+    text-align: center;
+    background-color: white;
+}
+/*quick action*/
+.flex5 {
+    border: 1px;
+    background-color:white;
+    text-align: center;
+    width: 14em;
+    flex-basis: 20em;
+    color: black;
+    font-size: .7em;
+}
+
+/*3rd head tag(students group )*/
+
+.ul3{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top:8em;
+    bottom:0;
+    left:20em;
+    right:0;
+    width: 60em;
+    height: 3.5em;
+    justify-content: space-around;
+}
+
+
+.flex6{
+    color: black;
+    border: 1px gainsboro solid;
+    width: 110em;
+    font-size: .9em;
+    border-radius: .3em;
+    height: 3.5em;
+    text-align: center;
+
+    
+}/*End of 3rd head*/
+
+/*search bar*/
+.search{
+    position:absolute;
+    top:13em;
+    bottom:0;
+    left:21em;
+    width: 18em;
+}
+
+/*
+
+td {
+    border: none;
+} 
+*/
+    
+   
+#text{
+    width: 12em;
+    height: 2.9em;
+    border-radius: .5em;
+    
+}
+ 
+   
+/*End of search bar*/
+
+    
+.dropdown {
+    display: flex;
+    position:absolute;
+    top:13em;
+    bottom:0;
+    left:70em;
+    height: 1.5em;
+}
+table{
+    position: absolute;
+    outline: 1px;
+    border: 1px solid black;
+    top:17em;
+    left:21em;
+    border-radius: .5em;
+   
+}
+    tr
+{
+    border: 1px solid;
+}
+
+
+    
+    
+/*table(original)
+    width: 60em;
+    border-collapse: collapse;
+    height: 28em;
+    border: 1px solid #CCC;
+*/
+
+/*
+
+th {
+    border: none;
+}
+*/
+
+td,th{
+    text-align: left;
+    padding-right: 70px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+}
+/*
+
+th{ 
+backgroundclr : #f2f2f2;
+}
+*/
+
+
+/*
+table{
+    position: relative;
+        border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: 1;
+}
+th ,td
+{
+    margin-left: 58px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding-right: 70px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+th{
+backgroundclr : #f2f2f2;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+td{
+    border-left:thin solid; 
+        border-top: thin solid;
+    border-bottom: thin solid;
+}
+    
+*/
+/*    border-style: hidden;*/
+    
+/*
+    cellpadding="0" cellspacing="0" width="100%" style="border: 1px;" rules="none">
+    <tbody>
+*/
+
+
+  
+
+   
+
+/*
+
+            <td style="border-left: thin solid; border-top: thin solid; border-bottom: thin solid;">&nbsp;*/
+
+
+
+tr,td,th{
+    border-bottom: 1px solid black;
+   
+}

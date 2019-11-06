@@ -1,0 +1,144 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+/* google fonts */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+nav {
+    height: 80px;
+    padding-top: 15px;
+}
+
+nav #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#background1 {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#background1 > .background-image {
+    width: 63%;
+    height: auto;
+    position: fixed;
+    top: -10%;
+    right: 0%;
+}
+
+/* background End */
+
+.heading {
+    position: relative;
+    justify-self: center;
+}
+
+input, .l-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 1px solid #70707045 ;
+    border-radius: 5px;
+    width: 250px ;
+    height: 40px;
+    padding-left: 10px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+input:hover {
+    border: 2px solid #0bb76c ;
+}
+
+input::placeholder {
+    opacity: 0.4;
+}
+
+
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #70707045;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-left: 14px;
+}
+
+textarea::placeholder {
+    opacity: 0.5;
+}
+
+textarea:hover {
+    border: 1px solid #0bb76c;
+}
+
+.login-form {
+    margin-top: 100px;
+}
+
+.login-form  .form-style > p {
+    font-size: 30px;
+}
+
+.l-btn {
+    background-color: white;
+    width: 50% ;
+    padding-left: 0 ;
+}
+
+.l-btn:hover {
+    background-color: #0bb76c20;
+    border: 1px solid #70707000 ;
+}
+
+.l-submit:hover input {
+    
+    background-color: rgba(11, 183, 108, 0.1);
+    color: #0bb76c;
+}
+
+
+.enter-credentials {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOG-IN PAGE END */
+
+.l-btn  .btn-txt {
+    border: none;
+}
+
+a
+{
+text-decoration: none;
+    color: #0bb76c;
+}
+
+a:hover{
+    
+    background-color: rgba(11, 183, 108, 0.1);
+    color: #0bb76c;
+}
