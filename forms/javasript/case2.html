@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html>
+<head>
+  <title>Case Study 2</title>
+  <style>
+  .divClass{
+ background-color: beige;
+    padding: 20px;
+    border: 1px solid gray;
+    color: violet;
+    font-weight: bold;
+  }
+  .divClass:hover{
+    padding: 20px;
+    color: red;
+  }
+  </style>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+<body>
+  <center><div class="logDiv">
+    <div id="bid" onclick="myFunction()" class="divClass">MANGO</div>
+    <div id="bid" onclick="myFunction()" class="divClass">APPLE</div>
+    <div id="bid" onclick="myFunction()" class="divClass">ORANGE</div>
+    <div id="bid" onclick="myFunction()" class="divClass">GRAPES</div>
+    <div id="bid" onclick="myFunction()" class="divClass">GUAVA</div>
+  </div></center>
+<script>
+  //Case Study 2
+  function myFunction()
+  {
+    var bt = document.getElementById('bid');
+    bt.remove();
+  }
+</script>
+</body>
+</html>

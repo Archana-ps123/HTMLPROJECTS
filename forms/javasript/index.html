@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 6: Events - Event Attributes</title>
+  </head>
+  <body>
+    <div id="page">
+      <h1>List King</h1>
+      <h2>New Account</h2>
+      <form method="post" action="http://www.example.org/register">
+
+        <label for="username">Create a username: </label>
+        <input type="text" id="username"  placeholder="enter username"  />
+        <input type="password">
+        <div id="feedback">no text</div>
+
+      </form>
+    </div>
+    <script>
+        function checkUsername(minLength)
+        {
+          
+            var msg = document.getElementById('feedback');
+            if(name.value.length < minLength)
+            { 
+            msg.textContent='username must be valid';
+            }
+            else
+                {
+                    msg.textContent=" ";
+                }
+        }
+        
+          var name = document.getElementById('username');   
+
+        name.addEventListener("blur",function () {
+checkUsername(5);
+});
+        
+    
+          <script>
+                      function check(len) {
+            var msg = document.getElementById('feedback');
+
+            if (userName.value.length < len) {
+             
+                msg.textContent= "Username must be valid" + len+ ".";
+            }
+
+
+
+        }
+        var userName = document.getElementById('username');
+        userName.addEventListener('blur', function() {
+            check(5);
+        });
+
+    </script>
+      
+     
+  </body>
+</html>

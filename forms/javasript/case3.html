@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>case study 1</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+<body>
+  <center><div class="logDiv">
+      Message : <input type="text" id="input"><br><br>
+      <div id="div1"></div>
+  </div></center>
+<script>
+  //Case Study
+  var inputBox = document.getElementById('input');
+  inputBox.onkeyup = function(){
+  var y=document.getElementById('div1');
+      y.innerHTML=inputBox.value;
+  }
+  window.addEventListener('load',checkUname)
+  var msg2 = document.getElementById('div1');
+  function checkUname()
+  {
+    var un2 = document.getElementById('content');
+    un2.focus();
+  }
+</script>
+</body>
+</html>
